@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+       <title>Box Model</title>
+        <style type="text/css">
+       body{
+        background-color: yellow;
+       }
+
+       .container{
+        background-color: green;
+        width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px 0px 30px 0px;
+        padding:1px;
+       }
+       .box{
+        width:300px;
+        height: 280px;
+        background-color: white;
+        display: inline-block;
+        margin: 8px;
+        border-radius: 30px 0px 30px 0px;
+       }
+       #lemon{
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+        border-style: solid ;
+        border-radius: 150px 20px;
+        margin-top: 40px;margin-left: auto;margin-right: auto;
+       }
+       #header{
+        width:900px;
+        height:150px;
+        background-color:orange;
+        margin-top: 10px;margin-left: auto;margin-right: auto;
+        border-radius: 100px;
+       }
+       li{
+        text-decoration: none;
+        display:inline;
+        float:left;
+        padding:1s0px;
+        margin:10px;
+       }
+        </style>
+    </head>
+    <body>
+       <div class="container">
+        <div id="header">
+          <ul>
+            <li><a href="index.html">Box 1</a></li>
+            <li><a href="page2.html">Box 2</a></li>
+            <li><a href="page3.html">Positioning</a></li>
+          </ul>
+        </div>
+            <div class="box" id="box1"><div id="lemon"></div></div>
+            <div class="box" id="box2"><div id="lemon"></div></div>
+            <div class="box" id="box3"><div id="lemon"></div></div>
+            <div class="box" id="box3"><div id="lemon"></div></div>
+            <div class="box" id="box3"><div id="lemon"></div></div>
+            <div class="box" id="box3"><div id="lemon"></div></div>
+       </div>
+    </body>
+</html>
